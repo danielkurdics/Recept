@@ -9,6 +9,8 @@ from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 
+# uvicorn recept_1:appl --reload
+
 
 def sanitize_json(response_text):
     """
